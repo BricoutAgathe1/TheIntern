@@ -19,5 +19,10 @@ You only need to download Ollama and Pandoc once prior to running TheIntern. Pow
 With the requirements met and the paths in _generate-docs-context.ps1_ pointing to the correct directories, start TheIntern by running `.\generate-docs-context.ps1` from your computer's terminal using Powershell.
 If needing to convert to .docx, with Pandoc installed run `pandoc project_doc.md -o project_doc.docx `.
 
+
+## Gherkin test generator: TheIntern's other job
+- **test_gen.txt**: Prompt to be fed to the chosen model in _test_generator.ps1_. Modify as needed.
+- **test_generator.ps1**: Powershell script used to generate Gherkin tests. Possibility to modify AI model needed, need to change the test name before running through `.\test_generator.ps1` from your computer's terminal.
+
 # About
 Created by Agathe Bricout [University of Edinburgh] for IMV Imaging, Angouleme.
